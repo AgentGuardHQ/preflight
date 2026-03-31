@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="56" fill="#0a0a0f" stroke="#22d3ee" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- 5 phase bars — runway/checklist motif -->
+  <!-- Phase 1: Orient -->
+  <rect x="30" y="28" width="24" height="4" rx="2" fill="#22d3ee" opacity="0.2"/>
+  <rect x="58" y="28" width="32" height="4" rx="2" fill="#22d3ee" opacity="0.15"/>
+
+  <!-- Phase 2: Clarify -->
+  <rect x="30" y="42" width="24" height="4" rx="2" fill="#22d3ee" opacity="0.35"/>
+  <rect x="58" y="42" width="26" height="4" rx="2" fill="#22d3ee" opacity="0.25"/>
+
+  <!-- Phase 3: Approach -->
+  <rect x="30" y="56" width="24" height="4" rx="2" fill="#22d3ee" opacity="0.5"/>
+  <rect x="58" y="56" width="20" height="4" rx="2" fill="#22d3ee" opacity="0.35"/>
+
+  <!-- Phase 4: Confirm -->
+  <rect x="30" y="70" width="24" height="4" rx="2" fill="#22d3ee" opacity="0.7"/>
+  <rect x="58" y="70" width="14" height="4" rx="2" fill="#22d3ee" opacity="0.5"/>
+
+  <!-- Phase 5: Execute — full brightness, checkmark -->
+  <rect x="30" y="84" width="60" height="4" rx="2" fill="#22d3ee" opacity="1"/>
+
+  <!-- Checkmark at the end of phase 5 -->
+  <path d="M82 80 L86 88 L94 76" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Subtle glow on phase 5 bar -->
+  <rect x="30" y="84" width="60" height="4" rx="2" fill="#22d3ee" opacity="0.15" filter="url(#glow)"/>
+
+  <defs>
+    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
