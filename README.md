@@ -79,6 +79,16 @@ See [PROTOCOL.md](PROTOCOL.md) for the full specification.
 
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for how to add support for additional AI coding agents.
 
+## Part of the Governed Swarm Platform
+
+| Repo | Role |
+|------|------|
+| [AgentGuard](https://github.com/AgentGuardHQ/agentguard) | Governance — policy enforcement, telemetry, invariants |
+| [Octi Pulpo](https://github.com/AgentGuardHQ/octi-pulpo) | Coordination — pipeline controller, model routing |
+| [ShellForge](https://github.com/AgentGuardHQ/shellforge) | Orchestration — multi-runtime agent execution |
+| **Preflight** | **Protocol — universal design-before-you-build standard** |
+| [Extensions](https://github.com/AgentGuardHQ/agentguard-extensions) | Drivers, integrations, policies, example swarms |
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
