@@ -9,7 +9,7 @@
   <br><br>
   <a href="https://agentguardhq.github.io/preflight">Website</a> &middot;
   <a href="PROTOCOL.md">Protocol Spec</a> &middot;
-  <a href="https://github.com/AgentGuardHQ/preflight/releases/tag/v1.0.0">v1.0.0</a>
+  <a href="https://github.com/chitinhq/preflight/releases/tag/v1.0.0">v1.0.0</a>
 </p>
 
 Preflight defines 5 mandatory phases every agent completes before writing code: **Orient, Clarify, Approach, Confirm, Execute.** It works with any AI coding agent — no runtime, no API key, one file.
@@ -25,7 +25,7 @@ Preflight fixes this with a lightweight prompt-based protocol that works across 
 ### Auto-detect and install
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/AgentGuardHQ/preflight/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/chitinhq/preflight/main/install.sh)
 ```
 
 The installer detects which AI agent drivers you use and copies the appropriate config file.
@@ -33,7 +33,7 @@ The installer detects which AI agent drivers you use and copies the appropriate 
 ### Install for a specific driver
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/AgentGuardHQ/preflight/main/install.sh) --driver claude-code
+bash <(curl -fsSL https://raw.githubusercontent.com/chitinhq/preflight/main/install.sh) --driver claude-code
 ```
 
 ### Manual install
@@ -83,11 +83,11 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for how to add support for additi
 
 | Repo | Role |
 |------|------|
-| [AgentGuard](https://github.com/AgentGuardHQ/agentguard) | Governance — policy enforcement, telemetry, invariants |
-| [Octi Pulpo](https://github.com/AgentGuardHQ/octi-pulpo) | Coordination — pipeline controller, model routing |
-| [ShellForge](https://github.com/AgentGuardHQ/shellforge) | Orchestration — multi-runtime agent execution |
+| [AgentGuard](https://github.com/chitinhq/agentguard) | Governance — policy enforcement, telemetry, invariants |
+| [Octi Pulpo](https://github.com/chitinhq/octi-pulpo) | Coordination — pipeline controller, model routing |
+| [ShellForge](https://github.com/chitinhq/shellforge) | Orchestration — multi-runtime agent execution |
 | **Preflight** | **Protocol — universal design-before-you-build standard** |
-| [Extensions](https://github.com/AgentGuardHQ/agentguard-extensions) | Drivers, integrations, policies, example swarms |
+| [Extensions](https://github.com/chitinhq/agentguard-extensions) | Drivers, integrations, policies, example swarms |
 
 ## License
 
@@ -95,4 +95,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-Created by the [AgentGuard](https://github.com/AgentGuardHQ) team.
+Created by the [AgentGuard](https://github.com/chitinhq) team.

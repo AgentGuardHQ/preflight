@@ -6,7 +6,7 @@
 #   bash install.sh --all                 # Install all drivers
 set -euo pipefail
 
-PREFLIGHT_REPO="https://raw.githubusercontent.com/AgentGuardHQ/preflight/main"
+PREFLIGHT_REPO="https://raw.githubusercontent.com/chitinhq/preflight/main"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # If running from a cloned repo, use local files. Otherwise, fetch from GitHub.
